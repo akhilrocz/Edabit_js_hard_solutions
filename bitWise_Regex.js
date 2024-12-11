@@ -1,5 +1,5 @@
 function isOdd(n) {
-  return (n & 1) === 1 ? "Yes" : "No";
+  return (n & 1) === 1 ? "Yes" : "No";  //least significant num is 1
 }
 function isEven(str) {
   const regex = /^-?\d*[02468]$/;
