@@ -4,11 +4,7 @@ function isDisarium(num) {
   for (let i = 0; i < numInString.length; i++) {
     sum += numInString[i] ** (i + 1);
   }
-  if (sum === num) {
-    return true;
-  } else {
-    return false;
-  }
+return sum==num;
 }
 
 console.log(isDisarium(75));
